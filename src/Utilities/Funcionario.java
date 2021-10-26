@@ -5,7 +5,7 @@ import java.util.Date;
 
 public class Funcionario extends Pessoa{
 
-    String codigo, contaCorrente = "";
+    private String codigo, contaCorrente = "";
 
     public Funcionario(long id, String nome, String email, String telefone, String usuario, String senha, String dataNascimento, String lembrete, String codigo, String contaCorrente) {
         super(id, nome, email, telefone, usuario, senha, dataNascimento, lembrete);

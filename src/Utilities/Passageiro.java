@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.util.Date;
 
 public class Passageiro extends Pessoa{
-        String numeroCartao, documento = "";
+    private String numeroCartao, documento = "";
 
     public Passageiro(long id, String nome, String email, String telefone, String usuario, String senha, String dataNascimento, String lembrete,String numeroCartao, String documento) {
         super(id, nome, email, telefone, usuario, senha, dataNascimento, lembrete);

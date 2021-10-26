@@ -4,9 +4,9 @@ import java.util.Date;
 
 public class Pessoa {
 
-    long id = 0;
-    String nome, email, telefone, usuario, senha, lembrete = "";
-    String dataNascimento;
+    private long id = 0;
+    private String nome, email, telefone, usuario, senha, lembrete = "";
+    private String dataNascimento;
 
 
     public String getLembrete() {
