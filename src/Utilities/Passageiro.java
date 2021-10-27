@@ -29,14 +29,14 @@ public class Passageiro extends Pessoa{
     }
 
     public void exibirPassageiro(){
-        JOptionPane.showMessageDialog(null, "ID do Passageiro: "+ this.getId() + "\n" +
-                                                                    "Nome: "     + this.getNome()     + "\n"  +
-                                                                    "Numero de Identidade: "+ this.getDocumento() + "\n" +
-                                                                    "Numero do Cartão: "+ this.getNumeroCartao() + "\n" +
-                                                                    "Data de Nascimento: "+ this.getDataNascimento() + "\n" +
-                                                                    "Email: "    + this.getEmail()    + "\n" +
-                                                                    "Telefone: " + this.getTelefone() + "\n" +
-                                                                    "Usuario: "  + this.getUsuario()  + "\n" +
+        JOptionPane.showMessageDialog(null, "ID do Passageiro: "+ getId() + "\n" +
+                                                                    "Nome: "     + getNome()     + "\n"  +
+                                                                    "Numero de Identidade: "+ getDocumento() + "\n" +
+                                                                    "Numero do Cartão: "+ getNumeroCartao() + "\n" +
+                                                                    "Data de Nascimento: "+ getDataNascimento() + "\n" +
+                                                                    "Email: "    + getEmail()    + "\n" +
+                                                                    "Telefone: " + getTelefone() + "\n" +
+                                                                    "Usuario: "  + getUsuario()  + "\n" +
                                                                     "Lembrete da Senha: " + getLembrete());
     }
 }

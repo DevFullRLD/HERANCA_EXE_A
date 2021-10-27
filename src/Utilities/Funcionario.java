@@ -1,7 +1,6 @@
 package Utilities;
 
 import javax.swing.*;
-import java.util.Date;
 
 public class Funcionario extends Pessoa{
 
@@ -31,13 +30,13 @@ public class Funcionario extends Pessoa{
     }
 
     public void exibirFuncionario(){
-        JOptionPane.showMessageDialog(null, "Codigo do Funcionario: "+ this.getCodigo() + "\n" +
-                                                                    "Nome: "     + this.getNome()     + "\n"  +
-                                                                    "Conta Corrente: "+ this.getContaCorrente() + "\n" +
-                                                                    "Data de Nascimento: "+ this.getDataNascimento() + "\n" +
-                                                                    "Email: "    + this.getEmail()    + "\n" +
-                                                                    "Telefone: " + this.getTelefone() + "\n" +
-                                                                    "Usuario: "  + this.getUsuario()  + "\n" +
+        JOptionPane.showMessageDialog(null, "Codigo do Funcionario: "+ getCodigo() + "\n" +
+                                                                    "Nome: "     + getNome()     + "\n"  +
+                                                                    "Conta Corrente: "+ getContaCorrente() + "\n" +
+                                                                    "Data de Nascimento: "+ getDataNascimento() + "\n" +
+                                                                    "Email: "    + getEmail()    + "\n" +
+                                                                    "Telefone: " + getTelefone() + "\n" +
+                                                                    "Usuario: "  + getUsuario()  + "\n" +
                                                                     "Lembrete da Senha: " + getLembrete());
                                                         }
 }
